@@ -41,8 +41,5 @@ tuple1=("wuhao","ligang","wanglei");
 
 print("不可变数组第一个元素是:%s" % (tuple1[0]));
 
-tuple1.insert(1,"abc");
-print(tuple1);
-
 
 
