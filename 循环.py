@@ -31,8 +31,21 @@ while n<100:
 print(newsum);
 
 
-while 1:
-	print("你是一个好人");
+# while 1:
+# 	print("你是一个好人");
+
+
+
+def hello(x):
+	return -x
+
+
+a=hello(10)
+print(a)
+
+
+
+
 
 
 
