@@ -17,3 +17,14 @@ print(wuhao)
 
 #遍历出目录中的文件
 print([d for d in os.listdir(".")])
+
+#列表所有元素小写
+L=["AFDS","HSFD","DOTA"]
+print([s.lower() for s in L])
+
+#遍历打印字典键和值
+dic={"A":"wuhao","B":"jiong","C":"class"}
+for x ,y in dic.items():
+	print(x,y)
+
+
