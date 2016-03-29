@@ -24,4 +24,4 @@ def move(n,a,b,c):
 	    #让b上的n-1柱子搬到c
 	    move(n-1,b,a,c)	
 
-move(18,'a','b','c')
+move(5,'a','b','c')
