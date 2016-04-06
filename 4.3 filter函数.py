@@ -19,7 +19,10 @@ lll=filter(exceptemptychar,['2',"da","","","sagds","gd"])
 print(lll)
 
 
+"""
+Python求素数的方法
 
+"""
 def getPrime(maxNum):
     aList = [x for x in range(0,maxNum)]
     prime = []
@@ -28,13 +31,14 @@ def getPrime(maxNum):
             prime.append(aList[i])
             clear(aList[i],aList,maxNum)
     return prime
-    
+      
 def clear(aPrime,aList,maxNum):
     for i in range(2,int((maxNum/aPrime)+1)):
         if not aPrime*i>maxNum-1:
             aList[i*aPrime]=0
 
-print getPrime(1000000)
+print getPrime(100)
+
 
 
 
