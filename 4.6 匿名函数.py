@@ -2,7 +2,7 @@
 
 
 """
-匿名函数,lambda函数
+匿名函数,lambda函数,对每个变量进行操作
 
 """
 
@@ -12,3 +12,10 @@ print l
 
 ll=list(map(lambda x:x+100,range(2,100)))
 print ll
+
+
+
+
+"""
+
+"""
